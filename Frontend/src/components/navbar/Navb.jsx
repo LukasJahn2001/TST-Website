@@ -6,7 +6,7 @@ import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
 const Navb = () => {
 
     return (
-        <Navbar bg="primary" expand="lg" variant={"dark"}>
+        <Navbar bg="primary" expand="lg" variant={"dark"} className={"sticky-top"}>
             <Container>
                 <Navbar.Brand href="/startseite">
                     <img

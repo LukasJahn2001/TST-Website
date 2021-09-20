@@ -51,7 +51,7 @@ const Vorstand = () => {
 
 
     return (
-        <Container>
+        <Container className={"abstandcontainer"}>
             <Row>
                 {vorstaende.map(vorstand => <Karte data={vorstand} key={vorstand.email}/>)}
             </Row>

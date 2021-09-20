@@ -9,7 +9,7 @@ import Geschichte from "./components/geschichte/Geschichte";
 import {Image} from "react-bootstrap";
 
 import platz from "./fussballplatz.png"
-import Kalender from "./components/kalender/kalender";
+import Kalender from "./components/kalender/Kalender";
 import Datenschutz from "./components/datenschutz/Datenschutz";
 import Impressum from "./components/impressum/Impressum";
 import Turnen from "./components/sparten/turnen/Turnen";

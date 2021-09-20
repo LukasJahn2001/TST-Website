@@ -1,6 +1,7 @@
 import { Document, Page } from 'react-pdf/dist/umd/entry.webpack';
 import {useState} from "react";
 import beitritt from "./beitritt.pdf"
+import {Container} from "react-bootstrap";
 
 const Beitritt = () => {
 
@@ -12,15 +13,13 @@ const Beitritt = () => {
     }
 
     return (
-
-        <>
+        <Container className={"abstandcontainer"}>
             <Document
                 file={beitritt}
-                onLoadSuccess={onDocumentLoadSuccess}
-            >
+                onLoadSuccess={onDocumentLoadSuccess}>
                 <Page pageNumber={pageNumber} />
             </Document>
-        </>
+        </Container>
     );
 }
 
