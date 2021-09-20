@@ -1,2 +1,2 @@
 # TST-Website
-website des tst
+website der tst
