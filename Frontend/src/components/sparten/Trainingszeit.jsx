@@ -10,7 +10,7 @@ const Trainingszeit = ({trainingsZeit}) => {
             </Accordion.Header>
             <Accordion.Body>
                 {trainingsZeit.zeiten.map(eineZeit =>
-                    <div>
+                    <div key={eineZeit.name}>
                         {eineZeit.name}{'  '}
                         <Badge bg="primary">{eineZeit.zeit} Uhr</Badge>
                     </div>)}

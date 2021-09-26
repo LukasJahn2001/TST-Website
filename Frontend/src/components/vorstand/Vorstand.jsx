@@ -6,7 +6,7 @@ const Vorstand = () => {
 
     const vorstaende = [
         {
-            name: "Müller, Max",
+            name: "Barth, Stefan",
             text: "Hello World 1",
             titel: "Vorstand",
             email: "mm@gmail.com",

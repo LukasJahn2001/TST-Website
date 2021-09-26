@@ -1,11 +1,6 @@
-import { Document, Page } from 'react-pdf/dist/umd/entry.webpack';
-import {useState} from "react";
-import beitritt from "./beitritt.pdf"
-import {Container} from "react-bootstrap";
-
 const Beitritt = () => {
 
-    const [numPages, setNumPages] = useState(null);
+/*    const [numPages, setNumPages] = useState(null);
     const [pageNumber, setPageNumber] = useState(1);
 
     function onDocumentLoadSuccess({ numPages }) {
@@ -20,6 +15,12 @@ const Beitritt = () => {
                 <Page pageNumber={pageNumber} />
             </Document>
         </Container>
+    );*/
+
+    return (
+      <div>
+          Hello World
+      </div>
     );
 }
 

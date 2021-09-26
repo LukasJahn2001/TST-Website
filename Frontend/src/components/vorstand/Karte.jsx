@@ -14,8 +14,8 @@ const Karte = ({data}) => {
                     <Card.Body>
                         <Card.Title>{data.name}</Card.Title>
                         <Card.Text>
-                            <p className="card-text">{data.text}</p>
-                            <p className="card-text">Email: {data.email}</p>
+                            <span className="card-text">{data.text}</span><br />
+                            <span className="card-text">Email: {data.email}</span>
                         </Card.Text>
                     </Card.Body>
                 </Card>
