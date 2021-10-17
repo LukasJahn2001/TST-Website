@@ -4,7 +4,14 @@ import {Col, Container, Row} from "react-bootstrap";
 import RandUebersicht from "../../RandUebersicht";
 
 
-const FrauenFb = () => {
+const FrauenFb = ({kalenderdata}) => {
+
+    const name = "Frauen Faustball";
+
+    var kalenderfrauen =  kalenderdata.filter(function(date) {
+        return date.group === name;
+    });
+
     const trainer = [
         {
             name: "Müller, Max",
@@ -55,13 +62,12 @@ const FrauenFb = () => {
             ],
         }];
 
-    const name = "Frauen Faustball";
 
 
     return(
         <Container className={"abstandcontainer"}>
             <Row>
-                <RandUebersicht trainer={trainer} trainingsZeiten={traingsZeiten} name={name}/>
+                <RandUebersicht trainer={trainer} trainingsZeiten={traingsZeiten} name={name} kalenderdata={kalenderfrauen}/>
                 <Col xs={12} md={7}>
                     <Filler/>
                 </Col>

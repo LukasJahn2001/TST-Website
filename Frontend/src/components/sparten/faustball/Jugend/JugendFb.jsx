@@ -3,7 +3,13 @@ import {Col, Container, Row} from "react-bootstrap";
 import RandUebersicht from "../../RandUebersicht";
 import Bild from "../../../vorstand/Gesicht.png";
 
-const JugendFb = () => {
+const JugendFb = ({kalenderdata}) => {
+
+    const name = "Jugend Faustball";
+
+    var kalenderJugend =  kalenderdata.filter(function(date) {
+        return date.group === name;
+    });
 
     const trainer = [
         {
@@ -55,13 +61,13 @@ const JugendFb = () => {
                 ],
         }];
 
-    const name = "Jugend Faustball";
+
 
 
     return(
         <Container className={"abstandcontainer"}>
             <Row>
-                <RandUebersicht trainer={trainer} trainingsZeiten={traingsZeiten} name={name}/>
+                <RandUebersicht trainer={trainer} trainingsZeiten={traingsZeiten} name={name} kalenderdata={kalenderJugend}/>
                 <Col xs={12} md={7} lg={8}>
                         <Filler/>
                 </Col>

@@ -2,8 +2,9 @@ import {Accordion, Col} from "react-bootstrap";
 import Trainingszeit from "./Trainingszeit";
 import Trainer from "./Trainer";
 import React from "react";
+import Kalender from "../infos/Kalender";
 
-const RandUebersicht = ({trainer, trainingsZeiten, name}) => {
+const RandUebersicht = ({trainer, trainingsZeiten, name, kalenderdata}) => {
 
     return(
         <>
@@ -22,6 +23,10 @@ const RandUebersicht = ({trainer, trainingsZeiten, name}) => {
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
+                <h3 className={"text-center"}>
+                    Kalender
+                </h3>
+                <Kalender data={kalenderdata}/>
             </Col>
         </>
     )

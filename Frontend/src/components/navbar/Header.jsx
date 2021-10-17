@@ -1,9 +1,10 @@
 
 import faustballLogo from './logo_ts.jpg';
+import faustballLogobearbeitet from './logo_ts_bearbeitet.jpg';
 import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
 
 
-const Navb = () => {
+const Header = () => {
 
     return (
         <Navbar bg="primary" expand="lg" variant={"dark"} className={"sticky-top"}>
@@ -11,7 +12,7 @@ const Navb = () => {
                 <Navbar.Brand href="/startseite">
                     <img
                         alt=""
-                        src={faustballLogo}
+                        src={faustballLogobearbeitet}
                         width="30"
                         height="30"
                         className="d-inline-block align-top"
@@ -27,6 +28,7 @@ const Navb = () => {
                             <NavDropdown.Item href="/sparten/faustball/maenner">Männer</NavDropdown.Item>
                             <NavDropdown.Item href="/sparten/faustball/frauen">Frauen</NavDropdown.Item>
                             <NavDropdown.Item href="/sparten/faustball/jugend">Jugend</NavDropdown.Item>
+                            <NavDropdown.Item href="/sparten/faustball/kids">Kids</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Verein" id="verein">
                             <NavDropdown.Item href="/verein/geschichte">Geschichte</NavDropdown.Item>
@@ -43,4 +45,4 @@ const Navb = () => {
 
 }
 
-export default Navb
+export default Header

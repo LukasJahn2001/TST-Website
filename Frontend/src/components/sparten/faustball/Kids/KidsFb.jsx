@@ -1,13 +1,13 @@
 import Filler from "../../../testfiles/Filler";
-import Bild from "../../../vorstand/Gesicht.png";
 import {Col, Container, Row} from "react-bootstrap";
 import RandUebersicht from "../../RandUebersicht";
+import Bild from "../../../vorstand/Gesicht.png";
 
-const MaennerFb = ({kalenderdata}) => {
+const KidsFb = ({kalenderdata}) => {
 
-    const name = "Männer Faustball";
+    const name = "Kids Faustball";
 
-    var kalendermaenner =  kalenderdata.filter(function(date) {
+    var kalenderKids =  kalenderdata.filter(function(date) {
         return date.group === name;
     });
 
@@ -33,11 +33,11 @@ const MaennerFb = ({kalenderdata}) => {
             eventKey: 0,
             zeiten: [
                 {
-                    zeit: "18:30",
-                    name: "Freitagstrainig",
+                    zeit: "Fr. 18:30",
+                    name: "männlich U18",
                 },
                 {
-                    zeit: "18:30",
+                    zeit: "Sa. 18:30",
                     name: "Samstagstraining",
                 },
             ],
@@ -47,15 +47,15 @@ const MaennerFb = ({kalenderdata}) => {
             eventKey: 1,
             zeiten: [
                 {
-                    zeit: "18:30",
+                    zeit: "Fr. 18:30",
                     name: "Freitagstrainig",
                 },
                 {
-                    zeit: "18:30",
+                    zeit: "Sa. 18:30",
                     name: "Samstagstraining",
                 },
                 {
-                    zeit: "12:30",
+                    zeit: "Mo. 12:30",
                     name: "Montagstraining",
                 },
             ],
@@ -65,8 +65,8 @@ const MaennerFb = ({kalenderdata}) => {
     return(
         <Container className={"abstandcontainer"}>
             <Row>
-                <RandUebersicht trainer={trainer} trainingsZeiten={traingsZeiten} name={name} kalenderdata={kalendermaenner}/>
-                <Col xs={12} md={8}>
+                <RandUebersicht trainer={trainer} trainingsZeiten={traingsZeiten} name={name} kalenderdata={kalenderKids}/>
+                <Col xs={12} md={7} lg={8}>
                     <Filler/>
                 </Col>
             </Row>
@@ -74,4 +74,4 @@ const MaennerFb = ({kalenderdata}) => {
     )
 }
 
-export default MaennerFb
+export default KidsFb
