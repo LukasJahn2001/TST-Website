@@ -20,6 +20,7 @@ import JugendFb from "./components/sparten/faustball/Jugend/JugendFb";
 import Beitritt from "./components/beitritt/Beitritt";
 import Foerderverein from "./components/foederverein/Foerderverein";
 import KidsFb from "./components/sparten/faustball/Kids/KidsFb";
+import WeitereSeiten from "./components/infos/WeitereSeiten";
 
 
 const kalenderdata = [
@@ -65,10 +66,13 @@ function App() {
               <Route path={"/verein/geschichte"}>
                 <Geschichte/>
               </Route>
+            <Route path={"/verein/aktuelles"}>
+                <WeitereSeiten/>
+            </Route>
               <Route path={"/verein/vorstand"}>
                 <Vorstand/>
               </Route>
-            <Route path={"/verein/kalender"}>
+            <Route path={"/verein/informationen"}>
                 <Infos kalenderdata={kalenderdata}/>
             </Route>
             <Route path={"/website/datenschutz"}>

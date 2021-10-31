@@ -2,6 +2,7 @@ import Filler from "../../../testfiles/Filler";
 import {Col, Container, Row} from "react-bootstrap";
 import RandUebersicht from "../../RandUebersicht";
 import Bild from "../../../vorstand/Gesicht.png";
+import FillerWithArticle from "../../../testfiles/FillerWithArticle";
 
 const JugendFb = ({kalenderdata}) => {
 
@@ -69,7 +70,7 @@ const JugendFb = ({kalenderdata}) => {
             <Row>
                 <RandUebersicht trainer={trainer} trainingsZeiten={traingsZeiten} name={name} kalenderdata={kalenderJugend}/>
                 <Col xs={12} md={7} lg={8}>
-                        <Filler/>
+                        <FillerWithArticle/>
                 </Col>
             </Row>
         </Container>
