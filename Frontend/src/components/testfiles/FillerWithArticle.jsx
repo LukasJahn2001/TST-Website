@@ -1,4 +1,3 @@
-import Filler from "./Filler";
 import {Carousel, Container} from "react-bootstrap";
 import schneeberg from './Schneeberg.JPG';
 

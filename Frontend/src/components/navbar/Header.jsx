@@ -1,5 +1,3 @@
-
-import faustballLogo from './logo_ts.jpg';
 import faustballLogobearbeitet from './logo_ts_bearbeitet.jpg';
 import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
 

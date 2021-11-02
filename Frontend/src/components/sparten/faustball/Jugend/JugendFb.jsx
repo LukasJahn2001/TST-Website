@@ -1,4 +1,3 @@
-import Filler from "../../../testfiles/Filler";
 import {Col, Container, Row} from "react-bootstrap";
 import RandUebersicht from "../../RandUebersicht";
 import Bild from "../../../vorstand/Gesicht.png";
