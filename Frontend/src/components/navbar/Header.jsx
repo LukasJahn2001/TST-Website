@@ -1,5 +1,3 @@
-
-import faustballLogo from './logo_ts.jpg';
 import faustballLogobearbeitet from './logo_ts_bearbeitet.jpg';
 import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
 
@@ -32,11 +30,12 @@ const Header = () => {
                         </NavDropdown>
                         <NavDropdown title="Verein" id="verein">
                             <NavDropdown.Item href="/verein/geschichte">Geschichte</NavDropdown.Item>
-                            <NavDropdown.Item href="/verein/vorstand">Vorstand</NavDropdown.Item>
+                            <NavDropdown.Item href="/verein/aktuelles">Aktuelles</NavDropdown.Item>
+                            <NavDropdown.Item href="/verein/vorstand">Vorstandschaft</NavDropdown.Item>
                             <NavDropdown.Item href="/verein/beitritt">Beitritt</NavDropdown.Item>
                             <NavDropdown.Item href="/verein/foerderverein">Förderverein</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href={"/verein/kalender"}>Infos</Nav.Link>
+                        <Nav.Link href={"/verein/informationen"}>Infos</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
