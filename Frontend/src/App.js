@@ -24,32 +24,75 @@ import KidsFb from "./components/sparten/faustball/Kids/KidsFb";
 
 const kalenderdata = [
     {
-        year: 2021,
-        day: 22,
+        year: 2022,
+        day: 29,
         month: 1,
-        time: "11:30",
-        name: "Vereinsfest",
-        place: "Thiersheim",
-        group: "Alle"
+        monthName: "Jan",
+        time: "tbd",
+        name: "Bayrische Meisterschaft Halle weibliche U16",
+        place: "Wunsiedel",
+        group: "Jugend Faustball"
     },
     {
-        year: 2021,
-        day: 23,
+        year: 2022,
+        day: 30,
         month: 1,
-        time: "11:15",
-        name: "Spieltag Kids",
-        place: "Thiersheim",
-        group: "Kids Faustball"
+        monthName: "Jan",
+        time: "tbd",
+        name: "Bayrische Meisterschaft Halle männliche U16",
+        place: "Wunsiedel",
+        group: "Jugend Faustball"
     },
     {
-        year: 2021,
-        day: 22,
-        month: 1,
-        time: "19:00",
-        name: "Spieltag",
+        year: 2022,
+        day: 12,
+        month: 3,
+        monthName: "Mär",
+        time: "tbd",
+        name: "Jahreshauptversammlung der TST",
         place: "Thiersheim",
-        group: "Frauen Faustball"
-    }
+        group: "All"
+    },
+    {
+        year: 2022,
+        day: 4,
+        month: 6,
+        monthName: "Jun",
+        time: "tbd",
+        name: "Sommerfest \"10 Jahre TST\" und Vereinsheimeinweihung",
+        place: "Thiersheim",
+        group: "All"
+    },
+    {
+        year: 2022,
+        day: 3,
+        month: 9,
+        monthName: "Sep",
+        time: "tbd",
+        name: "TST-Faustball-Gaudi-Tunier",
+        place: "Thiersheim",
+        group: "All"
+    },
+    {
+        year: 2022,
+        day: 10,
+        month: 9,
+        monthName: "Sep",
+        time: "tbd",
+        name: "Ausweichtermin TST-Faustball-Gaudi-Tunier",
+        place: "Thiersheim",
+        group: "All"
+    },
+    {
+        year: 2022,
+        day: 27,
+        month: 12,
+        monthName: "Dez",
+        time: "tbd",
+        name: "Faustballer-Weihnachtsfeier",
+        place: "Thiersheim",
+        group: "All"
+    },
 ];
 
 

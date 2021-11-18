@@ -1,5 +1,6 @@
 import {Col, Container, Row} from "react-bootstrap";
 import Kalender from "./Kalender";
+import Kalender2 from "./Kalender2";
 
 const Infos = ({kalenderdata}) => {
 
@@ -10,9 +11,9 @@ const Infos = ({kalenderdata}) => {
 
     return(
         <>
-        <Container className={"abstandcontainer"}>
+        {/*<Container className={"abstandcontainer"}>
             <Row>
-                <Col xs={12} md={6}>
+                <Col xs={12} md={12}>
                     <h3>Kalender:</h3>
                     <Kalender data={kalenderdata}></Kalender>
 
@@ -25,7 +26,8 @@ const Infos = ({kalenderdata}) => {
 
                 </Col>
             </Row>
-        </Container>
+        </Container>*/}
+            <Kalender2 data={kalenderdata}/>
         </>
     )
 }

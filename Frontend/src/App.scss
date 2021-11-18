@@ -13,6 +13,58 @@ $secondary: lightgrey;
   margin-bottom: 0.5rem;
 }
 
+.kaleintrag{
+  padding: 10px 40px 30px 10px;
+  text-overflow: ellipsis;
+}
+
+.kaleintragzeit{
+  color: black;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+h6.month {
+  width: 100%;
+  padding: 10px 10px 0px 10px;
+  text-align: center;
+}
+
+h6.day {
+  width: 100%;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.kaleintragtextbox{
+  color: white;
+  background-color: #165c64;
+  border-radius: 10px;
+}
+
+.kaleintragtext {
+  color: white;
+  padding: 10px 40px 10px 40px;
+  text-overflow: ellipsis;
+}
+
+div.kalHead {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 10px 40px 0px 40px;
+}
+
+h6.kalBody {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 10px 40px 10px 40px;
+}
+
+
 Table {
 
 }
