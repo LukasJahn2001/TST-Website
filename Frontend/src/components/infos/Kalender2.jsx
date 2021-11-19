@@ -5,7 +5,7 @@ import Kalendereintrag from "./Kalendereintrag";
 const Kalender2 = ({data}) => {
     return (
         <>
-            {data.map(eintrag => <Kalendereintrag data={eintrag}/>)}
+            {data.map(eintrag => <Kalendereintrag data={eintrag} key ={eintrag.name+eintrag.year}/>)}
         </>
     )
 }

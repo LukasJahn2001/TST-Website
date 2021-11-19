@@ -15,7 +15,6 @@ $secondary: lightgrey;
 
 .kaleintrag{
   padding: 10px 40px 30px 10px;
-  text-overflow: ellipsis;
 }
 
 .kaleintragzeit{
@@ -45,7 +44,6 @@ h6.day {
 .kaleintragtext {
   color: white;
   padding: 10px 40px 10px 40px;
-  text-overflow: ellipsis;
 }
 
 div.kalHead {
@@ -56,11 +54,19 @@ div.kalHead {
   padding: 10px 40px 0px 40px;
 }
 
+div.kalHeadShow {
+  padding: 10px 40px 0px 40px;
+}
+
 h6.kalBody {
   white-space: nowrap;
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
+  padding: 10px 40px 10px 40px;
+}
+
+h6.kalBodyShow {
   padding: 10px 40px 10px 40px;
 }
 
