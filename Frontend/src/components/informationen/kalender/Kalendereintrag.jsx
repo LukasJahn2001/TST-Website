@@ -1,7 +1,5 @@
 import {Col, Container, Row} from "react-bootstrap";
-import {Toast} from "bootstrap";
 import {useState} from "react";
-import {Button, Modal} from "@react-pdf-viewer/core";
 
 const Kalendereintrag = ({data}) => {
 

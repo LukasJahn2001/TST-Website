@@ -20,22 +20,23 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="/sparten/turnen">Turnen</Nav.Link>
-                        <Nav.Link href="/sparten/leichtathletik">Leichtathletik</Nav.Link>
-                        <NavDropdown title="Faustball" id="faustball">
-                            <NavDropdown.Item href="/sparten/faustball/maenner">Männer</NavDropdown.Item>
-                            <NavDropdown.Item href="/sparten/faustball/frauen">Frauen</NavDropdown.Item>
-                            <NavDropdown.Item href="/sparten/faustball/jugend">Jugend</NavDropdown.Item>
-                            <NavDropdown.Item href="/sparten/faustball/kids">Kids</NavDropdown.Item>
+                        <NavDropdown title="Verein" id="Verein">
+                            <NavDropdown.Item href="/verein/Vorstand">Vorstand</NavDropdown.Item>
+                            <NavDropdown.Item href="/verein/Geschichte">Geschichte</NavDropdown.Item>
+                            <NavDropdown.Item href="/verein/Partner">Partner</NavDropdown.Item>
+                            <NavDropdown.Item href="/verein/Förderverein">Förderverein</NavDropdown.Item>
+                            <NavDropdown.Item href="/verein/Mitgliedschaft">Mitgliedschaft</NavDropdown.Item>
                         </NavDropdown>
-                        <NavDropdown title="Verein" id="verein">
-                            <NavDropdown.Item href="/verein/geschichte">Geschichte</NavDropdown.Item>
-                            <NavDropdown.Item href="/verein/aktuelles">Aktuelles</NavDropdown.Item>
-                            <NavDropdown.Item href="/verein/vorstand">Vorstandschaft</NavDropdown.Item>
-                            <NavDropdown.Item href="/verein/beitritt">Beitritt</NavDropdown.Item>
-                            <NavDropdown.Item href="/verein/foerderverein">Förderverein</NavDropdown.Item>
+                        <NavDropdown title="Sportbetrieb" id="sportbetrieb">
+                            <NavDropdown.Item href="/sportbetrieb/breitensport">Breitensport</NavDropdown.Item>
+                            <NavDropdown.Item href="/sportbetrieb/faustball">Faustball</NavDropdown.Item>
+                            <NavDropdown.Item href="/sportbetrieb/turnen">Turnen</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href={"/verein/informationen"}>Infos</Nav.Link>
+                        <NavDropdown title="Informationen" id="informationen">
+                            <NavDropdown.Item href="/informationen/kalender">Kalender</NavDropdown.Item>
+                            <NavDropdown.Item href="/informationen/sportanlagen">Sportanlagen</NavDropdown.Item>
+                            <NavDropdown.Item href="/informationen/dateien">Dateien</NavDropdown.Item>
+                        </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
