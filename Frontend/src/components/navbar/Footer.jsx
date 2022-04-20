@@ -3,7 +3,7 @@ import {Container, Nav, Navbar} from "react-bootstrap";
 const Footer = () => {
 
     return(
-        <Navbar bg="primary" expand="lg" sticky="top" variant={"dark"}>
+        <Navbar bg="primary" expand="lg" sticky="bottom" variant={"dark"}>
             <Container>
                 <Nav className="me-auto">
                     <Nav.Link href="/website/impressum">Impressum</Nav.Link>

@@ -6,45 +6,59 @@ const Vorstand = () => {
 
     const vorstaende = [
         {
-            name: "Barth, Stefan",
+            name: "Stefan Barth",
             text: "Hello World 1",
-            titel: "Vorstand",
+            titel: "1. Vorsitzender",
             email: "mm@gmail.com",
             photo: Bild
         },
         {
-            name: "Doll, Dieter",
+            name: "Florian Arzberger",
             text: "Hello World 2",
-            titel: "Vorstand",
+            titel: "2. Vorsitzender",
             email: "dd@gmail.com",
             photo: Bild
         },
         {
-            name: "Schulze, Bettina",
+            name: "Joachim Kohlhofer",
             text: "Hello World 3",
-            titel: "Vorstand",
+            titel: "Schatzmeister",
             email: "sb@gmail.com",
             photo: Bild
         },
         {
-            name: "Müller, Max",
+            name: "Christian Kropf",
             text: "Hello World 1",
-            titel: "Vorstand",
+            titel: "Beisitzer Öffentlichkeitsarbeit",
             email: "mmm@gmail.com",
             photo: Bild
         },
         {
-            name: "Doll, Dieter",
+            name: "Randolf Winter",
             text: "Hello World 2",
-            titel: "Vorstand",
+            titel: "Beisitzer Mitgliederverwaltung",
             email: "dmd@gmail.com",
             photo: Bild
         },
         {
-            name: "Schulze, Bettina",
+            name: "Henrik Schula",
             text: "Hello World 3",
-            titel: "Vorstand",
+            titel: "Spartenleiter Faustball",
             email: "smb@gmail.com",
+            photo: Bild
+        },
+        {
+            name: "Markus Uhl",
+            text: "Hello World 2",
+            titel: "Kassenprüfer",
+            email: "dmd@gmail.com",
+            photo: Bild
+        },
+        {
+            name: "Sarah Weinhold",
+            text: "Hello World 2",
+            titel: "Kassenprüfer",
+            email: "dmd@gmail.com",
             photo: Bild
         }];
 

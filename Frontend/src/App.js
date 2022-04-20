@@ -14,6 +14,8 @@ import Impressum from "./components/impressumDatenschutz/Impressum";
 import Foerderverein from "./components/verein/förderverein/Foerderverein";
 import Kalender from "./components/informationen/kalender/Kalender";
 import Mitgliedschaft from "./components/verein/mitgliedschaft/Mitgliedschaft";
+import Partner from "./components/verein/partner/Partner";
+import Sportanlagen from "./components/informationen/sportanlagen/Sportanlagen";
 
 
 
@@ -35,6 +37,9 @@ function App() {
             <Route path={"/informationen/kalender"}>
                 <Kalender/>
             </Route>
+            <Route path={"/informationen/sportanlagen"}>
+                <Sportanlagen/>
+            </Route>
             <Route path={"/website/datenschutz"}>
                 <Datenschutz/>
             </Route>
@@ -43,6 +48,9 @@ function App() {
             </Route>
             <Route path={"/verein/mitgliedschaft"}>
                 <Mitgliedschaft/>
+            </Route>
+            <Route path={"/verein/partner"}>
+                <Partner/>
             </Route>
             <Route path={"/verein/foerderverein"}>
                 <Foerderverein/>
