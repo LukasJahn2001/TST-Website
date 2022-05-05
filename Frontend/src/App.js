@@ -16,6 +16,8 @@ import Kalender from "./components/informationen/kalender/Kalender";
 import Mitgliedschaft from "./components/verein/mitgliedschaft/Mitgliedschaft";
 import Partner from "./components/verein/partner/Partner";
 import Sportanlagen from "./components/informationen/sportanlagen/Sportanlagen";
+import Dateien from "./components/informationen/dateien/Dateinen";
+import DM from "./components/DM/DM";
 
 
 
@@ -33,6 +35,9 @@ function App() {
               </Route>
             <Route path={"/verein/vorstand"}>
                 <Vorstand/>
+            </Route>
+            <Route path={"/informationen/dateien"}>
+                <Dateien/>
             </Route>
             <Route path={"/informationen/kalender"}>
                 <Kalender/>
@@ -54,6 +59,9 @@ function App() {
             </Route>
             <Route path={"/verein/foerderverein"}>
                 <Foerderverein/>
+            </Route>
+            <Route path={"/dm2023"}>
+                <DM/>
             </Route>
         </Router>
         <Footer/>

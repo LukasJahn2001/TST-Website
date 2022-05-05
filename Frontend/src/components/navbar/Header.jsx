@@ -24,7 +24,7 @@ const Header = () => {
                             <NavDropdown.Item href="/verein/Vorstand">Vorstand</NavDropdown.Item>
                             <NavDropdown.Item href="/verein/Geschichte">Geschichte</NavDropdown.Item>
                             <NavDropdown.Item href="/verein/Partner">Partner</NavDropdown.Item>
-                            <NavDropdown.Item href="/verein/Förderverein">Förderverein</NavDropdown.Item>
+                            <NavDropdown.Item href="/verein/Foerderverein">Förderverein</NavDropdown.Item>
                             <NavDropdown.Item href="/verein/Mitgliedschaft">Mitgliedschaft</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Sportbetrieb" id="sportbetrieb">
@@ -37,6 +37,7 @@ const Header = () => {
                             <NavDropdown.Item href="/informationen/sportanlagen">Sportanlagen</NavDropdown.Item>
                             <NavDropdown.Item href="/informationen/dateien">Dateien</NavDropdown.Item>
                         </NavDropdown>
+                        <Nav.Link href="/dm2023">DM</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
