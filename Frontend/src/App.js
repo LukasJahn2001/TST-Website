@@ -1,12 +1,12 @@
 
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Footer from "./components/navbar/Footer";
 import Vorstand from "./components/verein/vorstand/Vorstand";
 import Header from "./components/navbar/Header";
 import Startseite from "./components/startseite/Startseite";
 import Geschichte from "./components/verein/geschichte/Geschichte";
-import {Image} from "react-bootstrap";
+import {Alert, Image} from "react-bootstrap";
 
 import platz from "./fussballplatz.png"
 import Datenschutz from "./components/impressumDatenschutz/Datenschutz";
@@ -20,14 +20,18 @@ import Dateien from "./components/informationen/dateien/Dateinen";
 import DM from "./components/DM/DM";
 
 
-
 function App() {
   return (
       <>
+          <Alert variant={"warning"}>
+              <Alert.Heading>Hinweis!</Alert.Heading>
+              Diese Website ist noch nicht 100% fertiggestellt und nicht alle Informationen sind korrekt!
+          </Alert>
         <Image src={platz} fluid />
         <Header/>
         <Router>
-              <Route path={"/startseite"}>
+            <Switch>
+              <Route exact path={"/"}>
                 <Startseite/>
               </Route>
               <Route path={"/verein/geschichte"}>
@@ -63,6 +67,7 @@ function App() {
             <Route path={"/dm2023"}>
                 <DM/>
             </Route>
+            </Switch>
         </Router>
         <Footer/>
       </>

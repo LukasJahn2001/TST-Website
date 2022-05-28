@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <Navbar bg="primary" expand="lg" variant={"dark"} className={"sticky-top"}>
             <Container>
-                <Navbar.Brand href="/startseite">
+                <Navbar.Brand href="/">
                     <img
                         alt=""
                         src={faustballLogobearbeitet}
@@ -21,11 +21,11 @@ const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <NavDropdown title="Verein" id="Verein">
-                            <NavDropdown.Item href="/verein/Vorstand">Vorstand</NavDropdown.Item>
-                            <NavDropdown.Item href="/verein/Geschichte">Geschichte</NavDropdown.Item>
-                            <NavDropdown.Item href="/verein/Partner">Partner</NavDropdown.Item>
-                            <NavDropdown.Item href="/verein/Foerderverein">Förderverein</NavDropdown.Item>
-                            <NavDropdown.Item href="/verein/Mitgliedschaft">Mitgliedschaft</NavDropdown.Item>
+                            <NavDropdown.Item href="/verein/vorstand">Vorstand</NavDropdown.Item>
+                            <NavDropdown.Item href="/verein/geschichte">Geschichte</NavDropdown.Item>
+                            <NavDropdown.Item href="/verein/partner">Partner</NavDropdown.Item>
+                            <NavDropdown.Item href="/verein/foerderverein">Förderverein</NavDropdown.Item>
+                            <NavDropdown.Item href="/verein/mitgliedschaft">Mitgliedschaft</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Sportbetrieb" id="sportbetrieb">
                             <NavDropdown.Item href="/sportbetrieb/breitensport">Breitensport</NavDropdown.Item>

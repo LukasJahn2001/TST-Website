@@ -1,13 +1,60 @@
+import {Carousel, Container} from "react-bootstrap";
+import schneeberg from "../../testfiles/Schneeberg.JPG";
+import vereinsheim from "./vereinsheim.JPG"
+
 const Sportanlagen = () => {
 
     return(
-        <>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.7245124080523!2d12.125365716287227!3d50.07272072238985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a0ff3c58722987%3A0x65cb423a4ac8d3db!2sTurnerschaft%20Thiersheim!5e0!3m2!1sde!2sde!4v1634143061318!5m2!1sde!2sde"
-                width="100%" height="450" styles="border:0;" allowFullScreen="" loading="lazy" title={"Anfahrt"}>
-                Anfahrt
-            </iframe>
-        </>
+        <Container>
+            <h3 className={"text-center"}>
+                Sportplatz Thiersheim
+            </h3>
+            <Container>
+                <Carousel className={"abstandcontainer"}>
+                    <Carousel.Item>
+                        <img
+                            alt=""
+                            src={schneeberg}
+                            width="100%"
+                            height="100%"
+                            className="align-content-between"
+                        />
+                        <Carousel.Caption>
+                            <h3>Der Sportplatz</h3>
+                            <p>what3words Adresse des Sportplatzes: <a className={"test"} href="https://w3w.co/ankündigungen.eisbär.echsen">///ankündigungen.eisbär.echsen</a></p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            alt=""
+                            src={vereinsheim}
+                            width="100%"
+                            height="100%"
+                            className="d-inline-block align-top"
+                        />
+
+                        <Carousel.Caption>
+                            <h3>Das Vereinsheim</h3>
+                            <p>what3words Adresse des Vereinsheims: <a className={"test"} href="https://w3w.co/übrigens.nicken.beträgt">///übrigens.nicken.beträgt</a></p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            alt=""
+                            src={schneeberg}
+                            width="100%"
+                            height="100%"
+                            className="d-inline-block align-top"
+                        />
+
+                        <Carousel.Caption>
+                            <h3>Der Parkplatz</h3>
+                            <p>what3words Adresse zum Parken: <a className={"test"} href="https://w3w.co/ruck.ziegelrot.reim">///ruck.ziegelrot.reim</a></p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
+            </Container>
+        </Container>
     )
 }
 

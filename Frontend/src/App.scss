@@ -25,7 +25,7 @@ $secondary: lightgrey;
 
 h6.month {
   width: 100%;
-  padding: 10px 10px 0px 10px;
+  padding: 10px 10px 0 10px;
   text-align: center;
 }
 
@@ -51,11 +51,11 @@ div.kalHead {
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding: 10px 40px 0px 40px;
+  padding: 10px 40px 0 40px;
 }
 
 div.kalHeadShow {
-  padding: 10px 40px 0px 40px;
+  padding: 10px 40px 0 40px;
 }
 
 h6.kalBody {
@@ -73,6 +73,11 @@ h6.kalBodyShow {
 
 Table {
 
+}
+
+a.test, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
 }
 
 @import "~bootstrap/scss/bootstrap";

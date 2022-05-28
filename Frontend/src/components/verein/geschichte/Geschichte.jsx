@@ -1,13 +1,16 @@
 import {Container} from "react-bootstrap";
-import Filler from "../../testfiles/Filler";
 
 
 const Geschichte = () => {
 
     return (
         <Container className={"abstandcontainer"}>
-            <h3>Geschichte des Vereins: </h3>
-            <Filler/>
+            <h1 className={'text-center'}>Geschichte der Turnerschaft Thiersheim</h1>
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ul>
         </Container>
     )
 }

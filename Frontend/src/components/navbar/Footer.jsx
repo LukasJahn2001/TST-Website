@@ -8,7 +8,7 @@ const Footer = () => {
                 <Nav className="me-auto">
                     <Nav.Link href="/website/impressum">Impressum</Nav.Link>
                     <Nav.Link href="/website/datenschutz">Datenschutz</Nav.Link>
-                    <Nav.Link href="/verein/beitritt">Beitritt</Nav.Link>
+                    <Nav.Link href="/verein/mitgliedschaft">Mitgliedschaft</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
