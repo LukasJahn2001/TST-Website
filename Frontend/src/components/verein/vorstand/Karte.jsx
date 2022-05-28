@@ -1,6 +1,13 @@
 import React from "react";
 import {Card, Col, Container} from "react-bootstrap";
 
+/*
+    <Card.Text>
+        <span className="card-text">{data.text}</span><br />
+        <span className="card-text">Email: {data.email}</span>
+    </Card.Text>
+ */
+
 
 const Karte = ({data}) => {
 
@@ -13,10 +20,6 @@ const Karte = ({data}) => {
                     <Card.Img variant="top" src={data.photo}/>
                     <Card.Body>
                         <Card.Title>{data.name}</Card.Title>
-                        <Card.Text>
-                            <span className="card-text">{data.text}</span><br />
-                            <span className="card-text">Email: {data.email}</span>
-                        </Card.Text>
                     </Card.Body>
                 </Card>
             </Container>

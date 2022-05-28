@@ -7,7 +7,7 @@ const Mitgliedschaft = () => {
         <Container>
             <div className={'abstandcontainer'}>
                 <h1 className={'text-center'}>Beitritt Turnerschaft Thiersheim</h1>
-                <h6 className={'text-center'}>Die Beitrittserklärung finden du <a href="/informationen/dateien">hier</a>.</h6>
+                <h6 className={'text-center'}>Die Beitrittserklärung findest du <a href="/informationen/dateien">hier</a>.</h6>
             </div>
             <Row className="justify-content-md-center">
                 <Col xs={12} md={10} xl={8}>

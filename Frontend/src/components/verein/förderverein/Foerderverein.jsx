@@ -13,7 +13,7 @@ const Foerderverein = () => {
                 <h1 className={'text-center'}>Förderverein Faustball in Thiersheim e.V.</h1>
                 <h6 className={'text-center'}>Möchtest du den Faustball in Thiersheim gezielt unterschützen, dann trete den "Förderverein Faustball in Thiersheim e.V." bei.
                     Dieser unterstützt den Faustball in Thiersheim zum Beispiel mit Bällen, Trikots und Fahrtkosten von weit entfernten Spieltagen.
-                    Die Beitrittserklärung finden du <a href="/informationen/dateien">hier</a>
+                    Die Beitrittserklärung findest du <a href="/informationen/dateien">hier</a>
                     .</h6>
             </div>
             <Row className="justify-content-md-center">
