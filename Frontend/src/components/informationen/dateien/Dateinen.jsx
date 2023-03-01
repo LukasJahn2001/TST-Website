@@ -1,5 +1,6 @@
 import DownloadFile from "./DownloadFIle";
 import {Container, Table} from "react-bootstrap";
+import Filler from "../../testfiles/Filler";
 
 const downloadLinks = [
     {
@@ -8,7 +9,7 @@ const downloadLinks = [
     },
     {
         text: "Beitrittserklärung der Turnerschaft Thiersheim",
-        filename: '/files/TS_Thiersheim_Eintrittserklaerung_2016-03-28.pdf'
+        filename: '/files/TST_Eintrittserklaerung.pdf'
     },
 
     {
@@ -28,7 +29,7 @@ const Dateien = () => {
                     <thead>
                     <tr>
                         <th>Name</th>
-                        <th>Download</th>
+                        <th className="text-center">Download</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -36,6 +37,7 @@ const Dateien = () => {
                     </tbody>
                 </Table>
             </Container>
+            <Filler/>
         </div>
     )
 }

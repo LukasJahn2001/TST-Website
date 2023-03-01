@@ -1,5 +1,8 @@
 import Karte from "./Karte";
 import Bild from "./Gesicht.png"
+import stefan_barth from "./stefan_barth.jpg"
+
+
 import {Container, Row} from "react-bootstrap";
 
 const Vorstand = () => {
@@ -10,7 +13,7 @@ const Vorstand = () => {
             text: "Hello World 1",
             titel: "1. Vorsitzender",
             email: "mm@gmail.com",
-            photo: Bild
+            photo: stefan_barth
         },
         {
             name: "Florian Arzberger",

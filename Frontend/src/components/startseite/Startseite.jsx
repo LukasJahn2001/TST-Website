@@ -1,6 +1,7 @@
 import React from "react";
 import vereinsheim from "./vereinsheim.JPG"
 import {Col, Container, Row} from "react-bootstrap";
+import Filler from "../testfiles/Filler";
 
 
 const Startseite = () => {
@@ -19,6 +20,7 @@ const Startseite = () => {
                     </Col>
                 </Row>
             </div>
+            <Filler/>
         </Container>
     )
 }

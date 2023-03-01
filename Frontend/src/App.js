@@ -23,10 +23,6 @@ import DM from "./components/DM/DM";
 function App() {
   return (
       <>
-          <Alert variant={"warning"}>
-              <Alert.Heading>Hinweis!</Alert.Heading>
-              Diese Website ist noch nicht 100% fertiggestellt und nicht alle Informationen sind korrekt!
-          </Alert>
         <Image src={platz} fluid />
         <Header/>
         <Router>

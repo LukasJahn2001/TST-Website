@@ -6,7 +6,7 @@ const DownloadFile = ({filename, text}) => {
     return(
         <tr>
             <td>{text}</td>
-            <td><Button href={filename} download><FaFileDownload/></Button></td>
+            <td className="text-center"><Button href={filename} download><FaFileDownload/></Button></td>
         </tr>
     )
 }
