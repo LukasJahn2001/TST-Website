@@ -1,59 +1,42 @@
-import {Carousel, Container} from "react-bootstrap";
-import schneeberg from "../../testfiles/Schneeberg.JPG";
-import vereinsheim from "./vereinsheim.JPG"
+import {Container} from "react-bootstrap";
+import sportanlagenThiersheimMap from "./SportanlagenThiersheim.png";
+import turnhalleWunsiedelMap from "./TurnhalleWunsiedelMap.png";
+import React from "react";
+
 
 const Sportanlagen = () => {
 
     return(
-        <Container>
-            <h3 className={"text-center"}>
-                Sportplatz Thiersheim
-            </h3>
-            <Container>
-                <Carousel className={"abstandcontainer"}>
-                    <Carousel.Item>
-                        <img
-                            alt=""
-                            src={schneeberg}
-                            width="100%"
-                            height="100%"
-                            className="align-content-between"
-                        />
-                        <Carousel.Caption>
-                            <h3>Der Sportplatz</h3>
-                            <p>what3words Adresse des Sportplatzes: <a className={"test"} href="https://w3w.co/ankündigungen.eisbär.echsen">///ankündigungen.eisbär.echsen</a></p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            alt=""
-                            src={vereinsheim}
-                            width="100%"
-                            height="100%"
-                            className="d-inline-block align-top"
-                        />
-
-                        <Carousel.Caption>
-                            <h3>Das Vereinsheim</h3>
-                            <p>what3words Adresse des Vereinsheims: <a className={"test"} href="https://w3w.co/übrigens.nicken.beträgt">///übrigens.nicken.beträgt</a></p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            alt=""
-                            src={schneeberg}
-                            width="100%"
-                            height="100%"
-                            className="d-inline-block align-top"
-                        />
-
-                        <Carousel.Caption>
-                            <h3>Der Parkplatz</h3>
-                            <p>what3words Adresse zum Parken: <a className={"test"} href="https://w3w.co/ruck.ziegelrot.reim">///ruck.ziegelrot.reim</a></p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
-            </Container>
+        <Container className={"text-center abstandcontainer"}>
+            <h1 className={"text-center"}>
+                Sportplatz und Turnhalle Thiersheim
+            </h1>
+            <p>
+                Den Google Maps Link für die Anreise nach Thiersheim findest du <a href="https://goo.gl/maps/iuzyNrExbAipSv367" target="_blank">hier</a>!
+            </p>
+            <img
+                alt="Sportanlagen Thiersheim"
+                src={sportanlagenThiersheimMap}
+                width="80%"
+                height="100%"
+                className="align-content-between"
+            />
+            <p>
+                <br/>
+            </p>
+            <h1 className={"text-center"}>
+                Turnhalle Wunsiedel
+            </h1>
+            <p>
+                Den Google Maps Link für die Anreise nach Wunsiedel findest du <a href="https://goo.gl/maps/5BKW1tBoj8ze8zSt8" target="_blank">hier</a>!
+            </p>
+            <img
+                alt="Turnhalle Wunsiedel"
+                src={turnhalleWunsiedelMap}
+                width="80%"
+                height="100%"
+                className="align-content-between"
+            />
         </Container>
     )
 }
