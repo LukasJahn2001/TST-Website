@@ -5,61 +5,16 @@ const Kalender = () => {
 
     const kalenderdata = [
         {
-            year: 2022,
+            year: 2023,
             dates: [
                 {
-                    day: 29,
-                    month: 1,
-                    monthName: "Jan",
-                    time: "tbd",
-                    name: "Bayrische Meisterschaft Halle weibliche U16",
-                    place: "Wunsiedel",
-                    group: "Jugend Faustball"
-                },
-                {
-                    day: 30,
-                    month: 1,
-                    monthName: "Jan",
-                    time: "tbd",
-                    name: "Bayrische Meisterschaft Halle männliche U16",
-                    place: "Wunsiedel",
-                    group: "Jugend Faustball"
-                },
-                {
-                    day: 12,
-                    month: 3,
-                    monthName: "Mär",
-                    time: "tbd",
-                    name: "Jahreshauptversammlung der TST",
-                    place: "Thiersheim",
-                    group: "All"
-                },
-                {
-                    day: 4,
-                    month: 6,
-                    monthName: "Jun",
-                    time: "14",
-                    name: "Sommerfest \"10 Jahre TST\" und Vereinsheimeinweihung",
-                    place: "Thiersheim",
-                    group: "All"
-                },
-                {
-                    day: 5,
-                    month: 6,
-                    monthName: "Jun",
-                    time: "11.15",
-                    name: "TST-Faustball-Gaudi-Tunier",
-                    place: "Thiersheim",
-                    group: "All"
-                },
-                {
-                    day: 27,
-                    month: 12,
-                    monthName: "Dez",
-                    time: "tbd",
-                    name: "Faustballer-Weihnachtsfeier",
-                    place: "Thiersheim",
-                    group: "All"
+                    day: 8,
+                    month: 10,
+                    monthName: "Okt",
+                    time: "10:30 - 17:00",
+                    name: "Apfelmarkt Thiersheim",
+                    place: "Thiersheim Schule",
+                    group: "None"
                 },
             ]
         },

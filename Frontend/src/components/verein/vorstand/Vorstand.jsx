@@ -1,6 +1,12 @@
 import Karte from "./Karte";
 import Bild from "./Gesicht.png"
-import stefan_barth from "./stefan_barth.jpg"
+import stefanBarth from "./StefanBarth.JPG"
+import christianKropf from "./ChristianKropf.JPG"
+import florianArzberger from "./FlorianArzberger.JPG"
+import henrickSchula from "./HenrickSchula.JPG"
+import randolfWinter from "./RandolfWinter.JPG"
+import michaelHendel from "./MichaelHendel.JPG"
+import joachimKohlhofer from "./JoachimKohlhofer.JPG"
 
 
 import {Container, Row} from "react-bootstrap";
@@ -13,57 +19,51 @@ const Vorstand = () => {
             text: "Hello World 1",
             titel: "1. Vorsitzender",
             email: "mm@gmail.com",
-            photo: stefan_barth
+            photo: stefanBarth
         },
         {
             name: "Florian Arzberger",
             text: "Hello World 2",
             titel: "2. Vorsitzender",
             email: "dd@gmail.com",
-            photo: Bild
+            photo: florianArzberger
         },
         {
             name: "Joachim Kohlhofer",
             text: "Hello World 3",
             titel: "Schatzmeister",
             email: "sb@gmail.com",
-            photo: Bild
+            photo: joachimKohlhofer
+        },
+        {
+            name: "Michael Hendel",
+            text: "Hello World 2",
+            titel: "Schriftführer",
+            email: "dmd@gmail.com",
+            photo: michaelHendel
         },
         {
             name: "Christian Kropf",
             text: "Hello World 1",
             titel: "Beisitzer Öffentlichkeitsarbeit",
             email: "mmm@gmail.com",
-            photo: Bild
+            photo: christianKropf
         },
         {
             name: "Randolf Winter",
             text: "Hello World 2",
             titel: "Beisitzer Mitgliederverwaltung",
             email: "dmd@gmail.com",
-            photo: Bild
+            photo: randolfWinter
         },
         {
             name: "Henrik Schula",
             text: "Hello World 3",
-            titel: "Spartenleiter Faustball",
+            titel: "Beisitzer Spartenleiter Faustball",
             email: "smb@gmail.com",
-            photo: Bild
+            photo: henrickSchula
         },
-        {
-            name: "Markus Uhl",
-            text: "Hello World 2",
-            titel: "Kassenprüfer",
-            email: "dmd@gmail.com",
-            photo: Bild
-        },
-        {
-            name: "Sarah Weinhold",
-            text: "Hello World 2",
-            titel: "Kassenprüfer",
-            email: "dmd@gmail.com",
-            photo: Bild
-        }];
+        ];
 
 
 

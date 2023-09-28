@@ -2,6 +2,8 @@
   "name": "websiteneu",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://ts-thiersheim.de/",
+  "proxy":"https://www.faustball.com/",
   "dependencies": {
     "@react-pdf-viewer/core": "^2.4.1",
     "@react-pdf-viewer/default-layout": "^2.7.1",
@@ -25,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
