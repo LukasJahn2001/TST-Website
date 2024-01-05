@@ -14,6 +14,10 @@ const Geschichte = () => {
                 <li>2024: 100 Jahre Faustball in Thiersheim</li>
             </ul>
             <Filler/>
+            <Filler/>
+            <Filler/>
+            <Filler/>
+            <Filler/>
         </Container>
     )
 }

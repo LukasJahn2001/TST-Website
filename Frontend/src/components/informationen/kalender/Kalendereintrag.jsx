@@ -11,9 +11,6 @@ const Kalendereintrag = ({data}) => {
                 <Row>
                     <Col xs={2} md={2} lg={1}>
                         <div className={"kaleintragzeit"}>
-                            <h6 className={"month"}>
-                                {data.monthName}
-                            </h6>
                             <h6 className={"day"}>
                                 {data.day}
                             </h6>

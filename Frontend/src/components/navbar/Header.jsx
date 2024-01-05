@@ -27,11 +27,6 @@ const Header = () => {
                             <NavDropdown.Item href="/verein/foerderverein">Förderverein</NavDropdown.Item>
                             <NavDropdown.Item href="/verein/mitgliedschaft">Mitgliedschaft</NavDropdown.Item>
                         </NavDropdown>
-                        {/*<NavDropdown title="Sportbetrieb" id="sportbetrieb">
-                            <NavDropdown.Item href="/sportbetrieb/breitensport">Breitensport</NavDropdown.Item>
-                            <NavDropdown.Item href="/sportbetrieb/faustball">Faustball</NavDropdown.Item>
-                            <NavDropdown.Item href="/sportbetrieb/turnen">Turnen</NavDropdown.Item>
-                        </NavDropdown>*/}
                         <NavDropdown title="Faustball" id="faustball">
                             <NavDropdown.Item href="/faustball/herren">Herren</NavDropdown.Item>
                             <NavDropdown.Item href="/faustball/frauen">Frauen</NavDropdown.Item>
@@ -41,7 +36,7 @@ const Header = () => {
                             <NavDropdown.Item href="/breitensport/breitensport">Breitensport</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Turnen" id="turnen">
-                            <NavDropdown.Item href="/turnen/turnen">Turnen</NavDropdown.Item>
+                            <NavDropdown.Item href="/turnen/elternkind">Eltern-Kind</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Informationen" id="informationen">
                             <NavDropdown.Item href="/informationen/kalender">Kalender</NavDropdown.Item>

@@ -1,7 +1,7 @@
 import {Carousel, Container} from "react-bootstrap";
-import schneeberg from "../../testfiles/Schneeberg.JPG";
-import jugend1 from "./jugend1.png";
-import jugend2 from "./jugend2.png"
+import jugend1 from "./jugend1.webp";
+import jugend2 from "./jugend2.webp"
+import Filler from "../../testfiles/Filler";
 
 const Faustballjugend = () => {
 
@@ -11,7 +11,7 @@ const Faustballjugend = () => {
                 Faustballjugend
             </h3 >
             <span>
-                Die Jugend der TST reicht von mehreren mixed U8 Manschaften über die männliche U16 bis zur weiblichen U18.
+                Die Jugend der TST reicht von mehreren mixed U8 Manschaften über die männliche U18 bis zur weiblichen U18.
             </span>
 
                 <Carousel className={"abstandcontainer"}>
@@ -34,6 +34,8 @@ const Faustballjugend = () => {
                         />
                     </Carousel.Item>
                 </Carousel>
+            <Filler/>
+            <Filler/>
         </Container>
     )
 }

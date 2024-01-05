@@ -1,6 +1,6 @@
 import {Col, Container, Row} from "react-bootstrap";
-import beitrittTST1 from "../mitgliedschaft/TST_Eintrittserklaerung_1.jpg";
-import beitrittTST2 from "../mitgliedschaft/TST_Eintrittserklaerung_2.jpg";
+import beitrittTST1 from "../mitgliedschaft/TST_Eintrittserklaerung_1.webp";
+import beitrittTST2 from "../mitgliedschaft/TST_Eintrittserklaerung_2.webp";
 import React from "react";
 
 const Mitgliedschaft = () => {

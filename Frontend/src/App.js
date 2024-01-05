@@ -8,7 +8,7 @@ import Startseite from "./components/startseite/Startseite";
 import Geschichte from "./components/verein/geschichte/Geschichte";
 import {Image} from "react-bootstrap";
 
-import platz from "./fussballplatz.png"
+import platz from "./fussballplatz.webp"
 import Datenschutz from "./components/impressumDatenschutz/Datenschutz";
 import Impressum from "./components/impressumDatenschutz/Impressum";
 import Foerderverein from "./components/verein/förderverein/Foerderverein";
@@ -21,6 +21,7 @@ import DM from "./components/DM/DM";
 import Faustballmeanner from "./components/faustball/maenner/Faustballmaenner";
 import Faustballfrauen from "./components/faustball/frauen/Faustballfrauen";
 import Faustballjugend from "./components/faustball/jugend/Faustballjugend";
+import MutterKind from "./components/turnen/MutterKind";
 
 
 
@@ -82,6 +83,9 @@ function App() {
                 </Route>
                 <Route path={"/faustball/jugend"}>
                     <Faustballjugend/>
+                </Route>
+                <Route path={"/turnen/elternkind"}>
+                    <MutterKind/>
                 </Route>
             </Switch>
         </Router>

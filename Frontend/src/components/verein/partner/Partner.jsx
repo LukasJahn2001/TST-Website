@@ -1,7 +1,7 @@
-import partnerjpg from './Partner.jpg';
-import {Col, Container, Row} from "react-bootstrap";
-import vereinsheim from "../../startseite/vereinsheim.JPG";
+import partnerjpg from './Partner.webp';
+import {Container, Row} from "react-bootstrap";
 import React from "react";
+import Filler from "../../testfiles/Filler";
 
 
 const Partner = () => {
@@ -19,6 +19,8 @@ const Partner = () => {
                     />
                 </Row>
             </div>
+            <Filler/>
+            <Filler/>
         </Container>
     )
 }

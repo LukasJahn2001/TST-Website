@@ -16,6 +16,14 @@ const downloadLinks = [
         text: "Datenschutz der Turnerschaft Thiersheim",
         filename: '/files/Datenschutz_info_Faustball_2022.pdf'
     },
+    {
+        text: "Satzung der Turnerschaft Thiersheim",
+        filename: '/files/Satzung_Turnerschaft_Thiersheim.pdf'
+    },
+    {
+        text: "Organisatorisches für die deutsche Meisterschaft",
+        filename: '/files/DM_2024_Infrastruktur.pdf'
+    },
 
 ]
 
@@ -33,10 +41,13 @@ const Dateien = () => {
                     </tr>
                     </thead>
                     <tbody>
-                        {downloadLinks.map(downLink => <DownloadFile text={downLink.text} filename={downLink.filename}/>)}
+                        {downloadLinks.map(downLink => <DownloadFile text={downLink.text} filename={downLink.filename} key={downLink.text}/>)}
                     </tbody>
                 </Table>
             </Container>
+            <Filler/>
+            <Filler/>
+            <Filler/>
             <Filler/>
         </div>
     )

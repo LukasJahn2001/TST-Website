@@ -1,5 +1,6 @@
 import {Carousel, Container} from "react-bootstrap";
 import maenner1 from "./maenner1.png";
+import Filler from "../../testfiles/Filler";
 
 const Faustballmeanner = () => {
 
@@ -7,11 +8,11 @@ const Faustballmeanner = () => {
     return(
             <Container className={"text-center"}>
                 <h3>
-                    Faustballherr
+                    Faustballherren
                 </h3 >
                 <span>
-                Die Männer der TST melden zwischen einer und zwei Mannschaften in der Bezirksliga oder Landesliga.
-            </span>
+                    Die Männer der TST melden zwischen einer und zwei Mannschaften in der Bezirksliga oder Landesliga.
+                </span>
 
                 <Carousel className={"abstandcontainer"}>
                     <Carousel.Item>
@@ -24,6 +25,8 @@ const Faustballmeanner = () => {
                         />
                     </Carousel.Item>
                 </Carousel>
+                <Filler/>
+                <Filler/>
             </Container>
     )
 

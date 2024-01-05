@@ -1,5 +1,5 @@
 
-import foederverein from './Betritt_Foederverein.png';
+import foederverein from './Beitritt_FoerderVerein.webp';
 import {Col, Container, Row} from "react-bootstrap";
 import React from "react";
 

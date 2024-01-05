@@ -1,6 +1,6 @@
 import {Container} from "react-bootstrap";
-import sportanlagenThiersheimMap from "./SportanlagenThiersheim.png";
-import turnhalleWunsiedelMap from "./TurnhalleWunsiedelMap.png";
+import sportanlagenThiersheimMap from "./SportanlagenThiersheim.webp";
+import turnhalleWunsiedelMap from "./TurnhalleWunsiedelMap.webp";
 import React from "react";
 
 
@@ -12,7 +12,7 @@ const Sportanlagen = () => {
                 Sportplatz und Turnhalle Thiersheim
             </h1>
             <p>
-                Den Google Maps Link für die Anreise nach Thiersheim findest du <a href="https://goo.gl/maps/iuzyNrExbAipSv367" target="_blank">hier</a>!
+                Den Google Maps Link für die Anreise nach Thiersheim findest du <a href="https://goo.gl/maps/iuzyNrExbAipSv367" target="_blank" rel="noreferrer">hier</a>!
             </p>
             <img
                 alt="Sportanlagen Thiersheim"
@@ -28,7 +28,7 @@ const Sportanlagen = () => {
                 Turnhalle Wunsiedel
             </h1>
             <p>
-                Den Google Maps Link für die Anreise nach Wunsiedel findest du <a href="https://goo.gl/maps/5BKW1tBoj8ze8zSt8" target="_blank">hier</a>!
+                Den Google Maps Link für die Anreise nach Wunsiedel findest du <a href="https://goo.gl/maps/5BKW1tBoj8ze8zSt8" target="_blank" rel="noreferrer">hier</a>!
             </p>
             <img
                 alt="Turnhalle Wunsiedel"

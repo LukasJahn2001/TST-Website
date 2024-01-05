@@ -4,7 +4,7 @@ import Year from "./Year";
 const Kalender = () => {
 
     const kalenderdata = [
-        {
+        /*{
             year: 2023,
             dates: [
                 {
@@ -17,27 +17,71 @@ const Kalender = () => {
                     group: "None"
                 },
             ]
-        },
+        },*/
         {
             year: 2024,
-            dates: [
+            months: [
                 {
-                    day: 31,
-                    month: 8,
-                    monthName: "Aug",
-                    time: "tbd",
-                    name: "Deutsche Meisterschaft 1. Tag",
-                    place: "Wunsiedel",
-                    group: "Jugend Faustball"
+                    month: "Januar",
+                    dates: [
+                        {
+                            day: "20.",
+                            time: "10:00",
+                            name: "Bayerische Meisterschaft weiblich U16",
+                            place: "Erolzheim"
+                        },
+                        {
+                            day: "27.",
+                            time: "8:00",
+                            name: "Bayerische Meisterschaft weiblich u18",
+                            place: "Wunsiedel"
+                        },
+                        {
+                            day: "27.",
+                            time: "8:00",
+                            name: "Bayerische Meisterschaft weiblich u14",
+                            place: "Münchberg"
+                        },
+                        {
+                            day: "28.",
+                            time: "8:00",
+                            name: "Bayerische Meisterschaft männlich u18",
+                            place: "Wunsiedel"
+                        }
+                    ]
                 },
                 {
-                    day: 1,
-                    month: 9,
-                    monthName: "Sep",
-                    time: "tbd",
-                    name: "Deutsche Meisterschaft 2. Tag",
-                    place: "Wunsiedel",
-                    group: "Jugend Faustball"
+                    month: "Februar",
+                    dates: [
+                        {
+                            day: "11.",
+                            time: "10:00",
+                            name: "Letzter Hallenspieltag der Herren",
+                            place: "Bad Staffelstein"
+                        }
+                    ]
+                },
+                {
+                    month: "August",
+                    dates: [
+                        {
+                            day: "31.",
+                            time: "tbd",
+                            name: "Deutsche Meisterschaft männlich und weiblich U18 1. Tag",
+                            place: "Thiersheim"
+                        }
+                    ]
+                },
+                {
+                    month: "September",
+                    dates: [
+                        {
+                            day: "1.",
+                            time: "tbd",
+                            name: "Deutsche Meisterschaft männlich und weiblich U18 2. Tag",
+                            place: "Thiersheim"
+                        }
+                    ]
                 }
             ]
         }
@@ -45,7 +89,7 @@ const Kalender = () => {
 
     return (
         <>
-            {kalenderdata.map(eintrag => <Year dates={eintrag.dates} year={eintrag.year} key ={eintrag.year}/>)}
+            {kalenderdata.map(eintrag => <Year months={eintrag.months} year={eintrag.year} key={eintrag.year}/>)}
         </>
     )
 }
