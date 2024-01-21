@@ -1,5 +1,5 @@
 import {Carousel, Container} from "react-bootstrap";
-import maenner1 from "./maenner1.png";
+import maenner1 from "./herren.webp";
 import Filler from "../../testfiles/Filler";
 
 const Faustballmeanner = () => {

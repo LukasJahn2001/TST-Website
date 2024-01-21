@@ -5,7 +5,7 @@ import Filler from "../../testfiles/Filler";
 const downloadLinks = [
     {
         text: "Beitrittserklärung des Fördervereins",
-        filename: '/files/Beitrittserklärung_FoerderVerein.pdf'
+        filename: '/files/Beitrittserklärung_FV_Faustball_Thiersheim.pdf'
     },
     {
         text: "Beitrittserklärung der Turnerschaft Thiersheim",

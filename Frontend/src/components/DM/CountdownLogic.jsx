@@ -20,7 +20,7 @@ function getRemainingMinutes(nowDayJS,timestampDayJS) {
 }
 
 function getRemainingHours(nowDayJS,timestampDayJS) {
-    return padWithZeros(timestampDayJS.diff(nowDayJS, 'hours') % 60, 2);;
+    return padWithZeros(timestampDayJS.diff(nowDayJS, 'hours') % 24, 2);
 }
 
 function getRemainingDays(nowDayJS,timestampDayJS) {

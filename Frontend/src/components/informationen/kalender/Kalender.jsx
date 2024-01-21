@@ -32,19 +32,19 @@ const Kalender = () => {
                         },
                         {
                             day: "27.",
-                            time: "8:00",
+                            time: "10:00",
                             name: "Bayerische Meisterschaft weiblich u18",
                             place: "Wunsiedel"
                         },
                         {
                             day: "27.",
-                            time: "8:00",
+                            time: "10:00",
                             name: "Bayerische Meisterschaft weiblich u14",
                             place: "Münchberg"
                         },
                         {
                             day: "28.",
-                            time: "8:00",
+                            time: "10:00",
                             name: "Bayerische Meisterschaft männlich u18",
                             place: "Wunsiedel"
                         }

@@ -1,5 +1,5 @@
 
-import foederverein from './Beitritt_FoerderVerein.webp';
+import foederverein from './Beitrittserklaerung_FV_Faustball_Thiersheim.webp';
 import {Col, Container, Row} from "react-bootstrap";
 import React from "react";
 
